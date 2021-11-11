@@ -63,6 +63,16 @@ namespace Practicing.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap brokenBridge {
+            get {
+                object obj = ResourceManager.GetObject("brokenBridge", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap commonEnding {
             get {
                 object obj = ResourceManager.GetObject("commonEnding", resourceCulture);
@@ -86,6 +96,16 @@ namespace Practicing.Properties {
         internal static System.Drawing.Bitmap Gauss {
             get {
                 object obj = ResourceManager.GetObject("Gauss", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap perfectAmicable {
+            get {
+                object obj = ResourceManager.GetObject("perfectAmicable", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

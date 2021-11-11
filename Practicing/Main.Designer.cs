@@ -30,33 +30,41 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.lblCreateFrame = new System.Windows.Forms.LinkLabel();
+            this.lnkCreateFrame = new System.Windows.Forms.LinkLabel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.lblGauss = new System.Windows.Forms.LinkLabel();
+            this.lnkGauss = new System.Windows.Forms.LinkLabel();
             this.label2 = new System.Windows.Forms.Label();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.lblCupSwapping = new System.Windows.Forms.LinkLabel();
+            this.lnkCupSwapping = new System.Windows.Forms.LinkLabel();
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
+            this.lnkEnding = new System.Windows.Forms.LinkLabel();
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.linkLabel3 = new System.Windows.Forms.LinkLabel();
+            this.lnkSmooth = new System.Windows.Forms.LinkLabel();
             this.label6 = new System.Windows.Forms.Label();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.lnkPerfect = new System.Windows.Forms.LinkLabel();
+            this.label7 = new System.Windows.Forms.Label();
+            this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.lnkBridge = new System.Windows.Forms.LinkLabel();
+            this.label8 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.groupBox5.SuspendLayout();
+            this.groupBox6.SuspendLayout();
+            this.groupBox7.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(10, 20);
+            this.label1.Location = new System.Drawing.Point(85, 19);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(568, 24);
             this.label1.TabIndex = 0;
@@ -74,21 +82,21 @@
             this.label3.Text = "Create a function that takes the width, height and character and \r\nreturns a pict" +
     "ure frame as an array of strings (string[ ]).";
             // 
-            // lblCreateFrame
+            // lnkCreateFrame
             // 
-            this.lblCreateFrame.AutoSize = true;
-            this.lblCreateFrame.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCreateFrame.Location = new System.Drawing.Point(6, 16);
-            this.lblCreateFrame.Name = "lblCreateFrame";
-            this.lblCreateFrame.Size = new System.Drawing.Size(218, 24);
-            this.lblCreateFrame.TabIndex = 4;
-            this.lblCreateFrame.TabStop = true;
-            this.lblCreateFrame.Text = "Creating a Picture Frame";
-            this.lblCreateFrame.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lbCreateFrame_LinkClicked);
+            this.lnkCreateFrame.AutoSize = true;
+            this.lnkCreateFrame.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lnkCreateFrame.Location = new System.Drawing.Point(6, 16);
+            this.lnkCreateFrame.Name = "lnkCreateFrame";
+            this.lnkCreateFrame.Size = new System.Drawing.Size(218, 24);
+            this.lnkCreateFrame.TabIndex = 4;
+            this.lnkCreateFrame.TabStop = true;
+            this.lnkCreateFrame.Text = "Creating a Picture Frame";
+            this.lnkCreateFrame.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkCreateFrame_LinkClicked);
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.lblCreateFrame);
+            this.groupBox1.Controls.Add(this.lnkCreateFrame);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Location = new System.Drawing.Point(36, 88);
             this.groupBox1.Name = "groupBox1";
@@ -98,7 +106,7 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.lblGauss);
+            this.groupBox2.Controls.Add(this.lnkGauss);
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Location = new System.Drawing.Point(36, 195);
             this.groupBox2.Name = "groupBox2";
@@ -106,17 +114,17 @@
             this.groupBox2.TabIndex = 6;
             this.groupBox2.TabStop = false;
             // 
-            // lblGauss
+            // lnkGauss
             // 
-            this.lblGauss.AutoSize = true;
-            this.lblGauss.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGauss.Location = new System.Drawing.Point(6, 16);
-            this.lblGauss.Name = "lblGauss";
-            this.lblGauss.Size = new System.Drawing.Size(150, 24);
-            this.lblGauss.TabIndex = 4;
-            this.lblGauss.TabStop = true;
-            this.lblGauss.Text = "Gauss\'s Addition";
-            this.lblGauss.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lblGauss_LinkClicked);
+            this.lnkGauss.AutoSize = true;
+            this.lnkGauss.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lnkGauss.Location = new System.Drawing.Point(6, 16);
+            this.lnkGauss.Name = "lnkGauss";
+            this.lnkGauss.Size = new System.Drawing.Size(150, 24);
+            this.lnkGauss.TabIndex = 4;
+            this.lnkGauss.TabStop = true;
+            this.lnkGauss.Text = "Gauss\'s Addition";
+            this.lnkGauss.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkGauss_LinkClicked);
             // 
             // label2
             // 
@@ -133,7 +141,7 @@
             // 
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel1.Location = new System.Drawing.Point(205, 53);
+            this.linkLabel1.Location = new System.Drawing.Point(693, 19);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(152, 25);
             this.linkLabel1.TabIndex = 7;
@@ -143,7 +151,7 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.lblCupSwapping);
+            this.groupBox3.Controls.Add(this.lnkCupSwapping);
             this.groupBox3.Controls.Add(this.label4);
             this.groupBox3.Location = new System.Drawing.Point(36, 301);
             this.groupBox3.Name = "groupBox3";
@@ -151,17 +159,17 @@
             this.groupBox3.TabIndex = 7;
             this.groupBox3.TabStop = false;
             // 
-            // lblCupSwapping
+            // lnkCupSwapping
             // 
-            this.lblCupSwapping.AutoSize = true;
-            this.lblCupSwapping.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCupSwapping.Location = new System.Drawing.Point(6, 16);
-            this.lblCupSwapping.Name = "lblCupSwapping";
-            this.lblCupSwapping.Size = new System.Drawing.Size(134, 24);
-            this.lblCupSwapping.TabIndex = 4;
-            this.lblCupSwapping.TabStop = true;
-            this.lblCupSwapping.Text = "Cup Swapping";
-            this.lblCupSwapping.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
+            this.lnkCupSwapping.AutoSize = true;
+            this.lnkCupSwapping.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lnkCupSwapping.Location = new System.Drawing.Point(6, 16);
+            this.lnkCupSwapping.Name = "lnkCupSwapping";
+            this.lnkCupSwapping.Size = new System.Drawing.Size(134, 24);
+            this.lnkCupSwapping.TabIndex = 4;
+            this.lnkCupSwapping.TabStop = true;
+            this.lnkCupSwapping.Text = "Cup Swapping";
+            this.lnkCupSwapping.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkCupSwapping_LinkClicked);
             // 
             // label4
             // 
@@ -176,7 +184,7 @@
             // 
             // groupBox4
             // 
-            this.groupBox4.Controls.Add(this.linkLabel2);
+            this.groupBox4.Controls.Add(this.lnkEnding);
             this.groupBox4.Controls.Add(this.label5);
             this.groupBox4.Location = new System.Drawing.Point(36, 407);
             this.groupBox4.Name = "groupBox4";
@@ -184,17 +192,17 @@
             this.groupBox4.TabIndex = 8;
             this.groupBox4.TabStop = false;
             // 
-            // linkLabel2
+            // lnkEnding
             // 
-            this.linkLabel2.AutoSize = true;
-            this.linkLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel2.Location = new System.Drawing.Point(6, 16);
-            this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(226, 24);
-            this.linkLabel2.TabIndex = 4;
-            this.linkLabel2.TabStop = true;
-            this.linkLabel2.Text = "Longest Common Ending";
-            this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked_1);
+            this.lnkEnding.AutoSize = true;
+            this.lnkEnding.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lnkEnding.Location = new System.Drawing.Point(6, 16);
+            this.lnkEnding.Name = "lnkEnding";
+            this.lnkEnding.Size = new System.Drawing.Size(226, 24);
+            this.lnkEnding.TabIndex = 4;
+            this.lnkEnding.TabStop = true;
+            this.lnkEnding.Text = "Longest Common Ending";
+            this.lnkEnding.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkEnding_LinkClicked_1);
             // 
             // label5
             // 
@@ -208,7 +216,7 @@
             // 
             // groupBox5
             // 
-            this.groupBox5.Controls.Add(this.linkLabel3);
+            this.groupBox5.Controls.Add(this.lnkSmooth);
             this.groupBox5.Controls.Add(this.label6);
             this.groupBox5.Location = new System.Drawing.Point(36, 513);
             this.groupBox5.Name = "groupBox5";
@@ -216,17 +224,17 @@
             this.groupBox5.TabIndex = 9;
             this.groupBox5.TabStop = false;
             // 
-            // linkLabel3
+            // lnkSmooth
             // 
-            this.linkLabel3.AutoSize = true;
-            this.linkLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel3.Location = new System.Drawing.Point(6, 16);
-            this.linkLabel3.Name = "linkLabel3";
-            this.linkLabel3.Size = new System.Drawing.Size(170, 24);
-            this.linkLabel3.TabIndex = 4;
-            this.linkLabel3.TabStop = true;
-            this.linkLabel3.Text = "Smooth Sentences";
-            this.linkLabel3.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel3_LinkClicked);
+            this.lnkSmooth.AutoSize = true;
+            this.lnkSmooth.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lnkSmooth.Location = new System.Drawing.Point(6, 16);
+            this.lnkSmooth.Name = "lnkSmooth";
+            this.lnkSmooth.Size = new System.Drawing.Size(170, 24);
+            this.lnkSmooth.TabIndex = 4;
+            this.lnkSmooth.TabStop = true;
+            this.lnkSmooth.Text = "Smooth Sentences";
+            this.lnkSmooth.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkSmooth_LinkClicked);
             // 
             // label6
             // 
@@ -239,11 +247,79 @@
             this.label6.Text = "Create a function that determines whether the input sentence \r\nis a \"smooth\" sent" +
     "ence.";
             // 
+            // groupBox6
+            // 
+            this.groupBox6.Controls.Add(this.lnkPerfect);
+            this.groupBox6.Controls.Add(this.label7);
+            this.groupBox6.Location = new System.Drawing.Point(530, 88);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Size = new System.Drawing.Size(488, 129);
+            this.groupBox6.TabIndex = 10;
+            this.groupBox6.TabStop = false;
+            // 
+            // lnkPerfect
+            // 
+            this.lnkPerfect.AutoSize = true;
+            this.lnkPerfect.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lnkPerfect.Location = new System.Drawing.Point(6, 16);
+            this.lnkPerfect.Name = "lnkPerfect";
+            this.lnkPerfect.Size = new System.Drawing.Size(184, 24);
+            this.lnkPerfect.TabIndex = 4;
+            this.lnkPerfect.TabStop = true;
+            this.lnkPerfect.Text = "Perfect or Amicable?";
+            this.lnkPerfect.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkPerfect_LinkClicked);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(6, 49);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(441, 60);
+            this.label7.TabIndex = 2;
+            this.label7.Text = "Create a function that takes a number and returns \"Perfect\" if\r\nthe number is per" +
+    "fect, \"Amicable\" if the number is part of an\r\namicable pair, or \"Neither\".\r\n";
+            // 
+            // groupBox7
+            // 
+            this.groupBox7.Controls.Add(this.lnkBridge);
+            this.groupBox7.Controls.Add(this.label8);
+            this.groupBox7.Location = new System.Drawing.Point(530, 223);
+            this.groupBox7.Name = "groupBox7";
+            this.groupBox7.Size = new System.Drawing.Size(488, 100);
+            this.groupBox7.TabIndex = 6;
+            this.groupBox7.TabStop = false;
+            // 
+            // lnkBridge
+            // 
+            this.lnkBridge.AutoSize = true;
+            this.lnkBridge.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lnkBridge.Location = new System.Drawing.Point(6, 16);
+            this.lnkBridge.Name = "lnkBridge";
+            this.lnkBridge.Size = new System.Drawing.Size(143, 24);
+            this.lnkBridge.TabIndex = 4;
+            this.lnkBridge.TabStop = true;
+            this.lnkBridge.Text = "Broken Bridge II";
+            this.lnkBridge.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkBridge_LinkClicked);
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(6, 49);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(392, 40);
+            this.label8.TabIndex = 2;
+            this.label8.Text = "Create a function to return the count of all bridges in a \r\ntwo-dimensional grid." +
+    "";
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(583, 646);
+            this.ClientSize = new System.Drawing.Size(1048, 646);
+            this.Controls.Add(this.groupBox7);
+            this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
@@ -264,6 +340,10 @@
             this.groupBox4.PerformLayout();
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
+            this.groupBox6.ResumeLayout(false);
+            this.groupBox6.PerformLayout();
+            this.groupBox7.ResumeLayout(false);
+            this.groupBox7.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -273,21 +353,27 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.LinkLabel lblCreateFrame;
+        private System.Windows.Forms.LinkLabel lnkCreateFrame;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.LinkLabel lblGauss;
+        private System.Windows.Forms.LinkLabel lnkGauss;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.LinkLabel lblCupSwapping;
+        private System.Windows.Forms.LinkLabel lnkCupSwapping;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.LinkLabel linkLabel2;
+        private System.Windows.Forms.LinkLabel lnkEnding;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.GroupBox groupBox5;
-        private System.Windows.Forms.LinkLabel linkLabel3;
+        private System.Windows.Forms.LinkLabel lnkSmooth;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.GroupBox groupBox6;
+        private System.Windows.Forms.LinkLabel lnkPerfect;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.GroupBox groupBox7;
+        private System.Windows.Forms.LinkLabel lnkBridge;
+        private System.Windows.Forms.Label label8;
     }
 }
 

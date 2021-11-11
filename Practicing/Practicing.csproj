@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmBrokenBridge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBrokenBridge.Designer.cs">
+      <DependentUpon>frmBrokenBridge.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmCodeCommong.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,6 +100,12 @@
     <Compile Include="frmGaussAddition.Designer.cs">
       <DependentUpon>frmGaussAddition.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmPerfectOrAmicable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPerfectOrAmicable.Designer.cs">
+      <DependentUpon>frmPerfectOrAmicable.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmPictureFrame.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,6 +126,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmBrokenBridge.resx">
+      <DependentUpon>frmBrokenBridge.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmCodeCommong.resx">
       <DependentUpon>frmCodeCommong.cs</DependentUpon>
     </EmbeddedResource>
@@ -137,6 +152,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmGaussAddition.resx">
       <DependentUpon>frmGaussAddition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPerfectOrAmicable.resx">
+      <DependentUpon>frmPerfectOrAmicable.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmPictureFrame.resx">
       <DependentUpon>frmPictureFrame.cs</DependentUpon>
@@ -185,6 +203,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Images\smoothSentences.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\perfectAmicable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\brokenBridge.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -117,26 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="cupSwapping" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\cupSwapping.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Gauss" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\Gauss.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="commonEnding" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\commonEnding.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="smoothSentences" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\smoothSentences.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pictureFrame" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\pictureFrame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="perfectAmicable" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\perfectAmicable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="brokenBridge" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\brokenBridge.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>
