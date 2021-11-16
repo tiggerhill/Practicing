@@ -63,6 +63,16 @@ namespace Practicing.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap avgWordLength {
+            get {
+                object obj = ResourceManager.GetObject("avgWordLength", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap brokenBridge {
             get {
                 object obj = ResourceManager.GetObject("brokenBridge", resourceCulture);

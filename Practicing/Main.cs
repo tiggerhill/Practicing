@@ -63,5 +63,11 @@ namespace Practicing
             frmBrokenBridge frm = new frmBrokenBridge();
             frm.ShowDialog();
         }
+
+        private void lnkAvgWordLength_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            frmAvgWordLength frm = new frmAvgWordLength();
+            frm.ShowDialog();
+        }
     }
 }

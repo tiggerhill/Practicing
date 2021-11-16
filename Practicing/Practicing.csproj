@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmAvgWordLength.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAvgWordLength.Designer.cs">
+      <DependentUpon>frmAvgWordLength.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmBrokenBridge.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -126,6 +132,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAvgWordLength.resx">
+      <DependentUpon>frmAvgWordLength.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmBrokenBridge.resx">
       <DependentUpon>frmBrokenBridge.cs</DependentUpon>
     </EmbeddedResource>
@@ -209,6 +218,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Images\brokenBridge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\avgWordLength.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

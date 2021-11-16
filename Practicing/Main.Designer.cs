@@ -46,11 +46,14 @@
             this.lnkSmooth = new System.Windows.Forms.LinkLabel();
             this.label6 = new System.Windows.Forms.Label();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.lnkPerfect = new System.Windows.Forms.LinkLabel();
-            this.label7 = new System.Windows.Forms.Label();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.lnkBridge = new System.Windows.Forms.LinkLabel();
-            this.label8 = new System.Windows.Forms.Label();
+            this.groupBox8 = new System.Windows.Forms.GroupBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.lnkAvgWordLength = new System.Windows.Forms.LinkLabel();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -58,6 +61,7 @@
             this.groupBox5.SuspendLayout();
             this.groupBox6.SuspendLayout();
             this.groupBox7.SuspendLayout();
+            this.groupBox8.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -249,13 +253,28 @@
             // 
             // groupBox6
             // 
+            this.groupBox6.Controls.Add(this.textBox2);
             this.groupBox6.Controls.Add(this.lnkPerfect);
-            this.groupBox6.Controls.Add(this.label7);
             this.groupBox6.Location = new System.Drawing.Point(530, 88);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(488, 129);
+            this.groupBox6.Size = new System.Drawing.Size(488, 117);
             this.groupBox6.TabIndex = 10;
             this.groupBox6.TabStop = false;
+            // 
+            // textBox2
+            // 
+            this.textBox2.BackColor = System.Drawing.SystemColors.Menu;
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox2.Enabled = false;
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(10, 49);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.textBox2.Size = new System.Drawing.Size(476, 65);
+            this.textBox2.TabIndex = 11;
+            this.textBox2.Text = "Create a function that takes a number and returns \"Perfect\" if the number is perf" +
+    "ect, \"Amicable\" if the number is part of an amicable pair, or \"Neither\".";
             // 
             // lnkPerfect
             // 
@@ -269,26 +288,29 @@
             this.lnkPerfect.Text = "Perfect or Amicable?";
             this.lnkPerfect.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkPerfect_LinkClicked);
             // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(6, 49);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(441, 60);
-            this.label7.TabIndex = 2;
-            this.label7.Text = "Create a function that takes a number and returns \"Perfect\" if\r\nthe number is per" +
-    "fect, \"Amicable\" if the number is part of an\r\namicable pair, or \"Neither\".\r\n";
-            // 
             // groupBox7
             // 
+            this.groupBox7.Controls.Add(this.textBox1);
             this.groupBox7.Controls.Add(this.lnkBridge);
-            this.groupBox7.Controls.Add(this.label8);
-            this.groupBox7.Location = new System.Drawing.Point(530, 223);
+            this.groupBox7.Location = new System.Drawing.Point(530, 211);
             this.groupBox7.Name = "groupBox7";
             this.groupBox7.Size = new System.Drawing.Size(488, 100);
             this.groupBox7.TabIndex = 6;
             this.groupBox7.TabStop = false;
+            // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.SystemColors.Menu;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Enabled = false;
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(10, 43);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.textBox1.Size = new System.Drawing.Size(472, 49);
+            this.textBox1.TabIndex = 5;
+            this.textBox1.Text = "Create a function to return the count of all bridges in a two-dimensional grid.";
             // 
             // lnkBridge
             // 
@@ -302,22 +324,49 @@
             this.lnkBridge.Text = "Broken Bridge II";
             this.lnkBridge.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkBridge_LinkClicked);
             // 
-            // label8
+            // groupBox8
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(6, 49);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(392, 40);
-            this.label8.TabIndex = 2;
-            this.label8.Text = "Create a function to return the count of all bridges in a \r\ntwo-dimensional grid." +
-    "";
+            this.groupBox8.Controls.Add(this.textBox3);
+            this.groupBox8.Controls.Add(this.lnkAvgWordLength);
+            this.groupBox8.Location = new System.Drawing.Point(530, 317);
+            this.groupBox8.Name = "groupBox8";
+            this.groupBox8.Size = new System.Drawing.Size(488, 113);
+            this.groupBox8.TabIndex = 11;
+            this.groupBox8.TabStop = false;
+            // 
+            // textBox3
+            // 
+            this.textBox3.BackColor = System.Drawing.SystemColors.Menu;
+            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox3.Enabled = false;
+            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.Location = new System.Drawing.Point(10, 43);
+            this.textBox3.Multiline = true;
+            this.textBox3.Name = "textBox3";
+            this.textBox3.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.textBox3.Size = new System.Drawing.Size(472, 67);
+            this.textBox3.TabIndex = 5;
+            this.textBox3.Text = "Create a function that takes in a sentence and returns the average length of each" +
+    " word in that sentence. Round your result to two decimal places.";
+            // 
+            // lnkAvgWordLength
+            // 
+            this.lnkAvgWordLength.AutoSize = true;
+            this.lnkAvgWordLength.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lnkAvgWordLength.Location = new System.Drawing.Point(6, 16);
+            this.lnkAvgWordLength.Name = "lnkAvgWordLength";
+            this.lnkAvgWordLength.Size = new System.Drawing.Size(195, 24);
+            this.lnkAvgWordLength.TabIndex = 4;
+            this.lnkAvgWordLength.TabStop = true;
+            this.lnkAvgWordLength.Text = "Average Word Length";
+            this.lnkAvgWordLength.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkAvgWordLength_LinkClicked);
             // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1048, 646);
+            this.Controls.Add(this.groupBox8);
             this.Controls.Add(this.groupBox7);
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.groupBox5);
@@ -344,6 +393,8 @@
             this.groupBox6.PerformLayout();
             this.groupBox7.ResumeLayout(false);
             this.groupBox7.PerformLayout();
+            this.groupBox8.ResumeLayout(false);
+            this.groupBox8.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -370,10 +421,13 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.GroupBox groupBox6;
         private System.Windows.Forms.LinkLabel lnkPerfect;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.GroupBox groupBox7;
         private System.Windows.Forms.LinkLabel lnkBridge;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.GroupBox groupBox8;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.LinkLabel lnkAvgWordLength;
     }
 }
 
