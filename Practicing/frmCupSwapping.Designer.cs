@@ -75,6 +75,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.picBoxGauss);
             this.Name = "frmCupSwapping";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmCupSwapping";
             ((System.ComponentModel.ISupportInitialize)(this.picBoxGauss)).EndInit();
             this.ResumeLayout(false);

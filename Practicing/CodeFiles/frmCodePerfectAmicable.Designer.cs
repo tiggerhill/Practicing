@@ -1,6 +1,6 @@
-﻿namespace Practicing
+﻿namespace Practicing.CodeFiles
 {
-    partial class frmCodeSmoothSentences
+    partial class frmCodePerfectAmicable
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCodeSmoothSentences));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCodePerfectAmicable));
             this.tboxCodeFrame = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
@@ -39,18 +39,19 @@
             this.tboxCodeFrame.Location = new System.Drawing.Point(0, 0);
             this.tboxCodeFrame.Name = "tboxCodeFrame";
             this.tboxCodeFrame.ReadOnly = true;
-            this.tboxCodeFrame.Size = new System.Drawing.Size(748, 415);
-            this.tboxCodeFrame.TabIndex = 1;
+            this.tboxCodeFrame.Size = new System.Drawing.Size(947, 911);
+            this.tboxCodeFrame.TabIndex = 2;
             this.tboxCodeFrame.Text = resources.GetString("tboxCodeFrame.Text");
             // 
-            // frmCodeSmoothSentences
+            // frmCodePerfectAmicable
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(748, 415);
+            this.ClientSize = new System.Drawing.Size(947, 911);
             this.Controls.Add(this.tboxCodeFrame);
-            this.Name = "frmCodeSmoothSentences";
-            this.Text = "frmCodeSmoothSentences";
+            this.Name = "frmCodePerfectAmicable";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "frmCodePerfectAmicable";
             this.ResumeLayout(false);
 
         }

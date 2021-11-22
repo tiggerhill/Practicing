@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtSmoothOrNot = new System.Windows.Forms.TextBox();
             this.btnSmoothOrNot = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.txtSmoothOrNotSentence = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.btnCodeSmooth = new System.Windows.Forms.Button();
             this.picBoxGauss = new System.Windows.Forms.PictureBox();
-            this.txtSmoothOrNot = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxGauss)).BeginInit();
             this.SuspendLayout();
@@ -51,6 +51,15 @@
             this.groupBox1.Size = new System.Drawing.Size(431, 287);
             this.groupBox1.TabIndex = 12;
             this.groupBox1.TabStop = false;
+            // 
+            // txtSmoothOrNot
+            // 
+            this.txtSmoothOrNot.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSmoothOrNot.Location = new System.Drawing.Point(166, 233);
+            this.txtSmoothOrNot.Name = "txtSmoothOrNot";
+            this.txtSmoothOrNot.Size = new System.Drawing.Size(100, 26);
+            this.txtSmoothOrNot.TabIndex = 13;
+            this.txtSmoothOrNot.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // btnSmoothOrNot
             // 
@@ -116,15 +125,6 @@
             this.picBoxGauss.TabIndex = 3;
             this.picBoxGauss.TabStop = false;
             // 
-            // txtSmoothOrNot
-            // 
-            this.txtSmoothOrNot.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSmoothOrNot.Location = new System.Drawing.Point(166, 233);
-            this.txtSmoothOrNot.Name = "txtSmoothOrNot";
-            this.txtSmoothOrNot.Size = new System.Drawing.Size(100, 26);
-            this.txtSmoothOrNot.TabIndex = 13;
-            this.txtSmoothOrNot.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
             // frmSmoothSentences
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -135,6 +135,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.picBoxGauss);
             this.Name = "frmSmoothSentences";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmSmoothSentences";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

@@ -39,7 +39,7 @@
             this.tboxCodeGauss.Location = new System.Drawing.Point(0, 0);
             this.tboxCodeGauss.Name = "tboxCodeGauss";
             this.tboxCodeGauss.ReadOnly = true;
-            this.tboxCodeGauss.Size = new System.Drawing.Size(1025, 450);
+            this.tboxCodeGauss.Size = new System.Drawing.Size(1025, 1109);
             this.tboxCodeGauss.TabIndex = 1;
             this.tboxCodeGauss.Text = resources.GetString("tboxCodeGauss.Text");
             // 
@@ -47,9 +47,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1025, 450);
+            this.ClientSize = new System.Drawing.Size(1025, 1109);
             this.Controls.Add(this.tboxCodeGauss);
             this.Name = "frmCodeGauss";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmCodeGauss";
             this.ResumeLayout(false);
 

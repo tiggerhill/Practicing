@@ -76,6 +76,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.picBrokenBridge);
             this.Name = "frmBrokenBridge";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmBrokenBridge";
             ((System.ComponentModel.ISupportInitialize)(this.picBrokenBridge)).EndInit();
             this.ResumeLayout(false);

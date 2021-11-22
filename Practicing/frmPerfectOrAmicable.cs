@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Practicing.CodeFiles;
 using System.Windows.Forms;
 
 namespace Practicing
@@ -64,6 +58,12 @@ namespace Practicing
             }
 
             return sum;
+        }
+
+        private void btnCode_Click(object sender, EventArgs e)
+        {
+            frmCodePerfectAmicable frm = new frmCodePerfectAmicable();
+            frm.ShowDialog();
         }
     }
 }

@@ -30,19 +30,20 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmTrackRobot1));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtResults = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.btnGaussCalc = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtDown = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtLeft = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.txtUp = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.txtRight = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtDown = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.txtLeft = new System.Windows.Forms.TextBox();
-            this.btnGaussCalc = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.txtResults = new System.Windows.Forms.TextBox();
             this.picTrackRobot1 = new System.Windows.Forms.PictureBox();
+            this.btnCode = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picTrackRobot1)).BeginInit();
             this.SuspendLayout();
@@ -66,6 +67,78 @@
             this.groupBox1.Size = new System.Drawing.Size(279, 400);
             this.groupBox1.TabIndex = 10;
             this.groupBox1.TabStop = false;
+            // 
+            // txtResults
+            // 
+            this.txtResults.AcceptsReturn = true;
+            this.txtResults.Enabled = false;
+            this.txtResults.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtResults.Location = new System.Drawing.Point(56, 332);
+            this.txtResults.Name = "txtResults";
+            this.txtResults.Size = new System.Drawing.Size(175, 26);
+            this.txtResults.TabIndex = 20;
+            this.txtResults.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(52, 293);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(185, 20);
+            this.label3.TabIndex = 13;
+            this.label3.Text = "Your robot has ended at:";
+            // 
+            // btnGaussCalc
+            // 
+            this.btnGaussCalc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGaussCalc.Location = new System.Drawing.Point(73, 243);
+            this.btnGaussCalc.Name = "btnGaussCalc";
+            this.btnGaussCalc.Size = new System.Drawing.Size(138, 30);
+            this.btnGaussCalc.TabIndex = 19;
+            this.btnGaussCalc.Text = "Calculate";
+            this.btnGaussCalc.UseVisualStyleBackColor = true;
+            this.btnGaussCalc.Click += new System.EventHandler(this.btnGaussCalc_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(49, 199);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(54, 20);
+            this.label1.TabIndex = 18;
+            this.label1.Text = "Down:";
+            // 
+            // txtDown
+            // 
+            this.txtDown.AcceptsReturn = true;
+            this.txtDown.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDown.Location = new System.Drawing.Point(131, 193);
+            this.txtDown.Name = "txtDown";
+            this.txtDown.Size = new System.Drawing.Size(100, 26);
+            this.txtDown.TabIndex = 17;
+            this.txtDown.Text = "10";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(62, 157);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(41, 20);
+            this.label2.TabIndex = 16;
+            this.label2.Text = "Left:";
+            // 
+            // txtLeft
+            // 
+            this.txtLeft.AcceptsReturn = true;
+            this.txtLeft.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtLeft.Location = new System.Drawing.Point(131, 151);
+            this.txtLeft.Name = "txtLeft";
+            this.txtLeft.Size = new System.Drawing.Size(100, 26);
+            this.txtLeft.TabIndex = 15;
+            this.txtLeft.Text = "30";
             // 
             // label7
             // 
@@ -118,78 +191,6 @@
             this.txtRight.TabIndex = 11;
             this.txtRight.Text = "10";
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(49, 199);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(54, 20);
-            this.label1.TabIndex = 18;
-            this.label1.Text = "Down:";
-            // 
-            // txtDown
-            // 
-            this.txtDown.AcceptsReturn = true;
-            this.txtDown.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDown.Location = new System.Drawing.Point(131, 193);
-            this.txtDown.Name = "txtDown";
-            this.txtDown.Size = new System.Drawing.Size(100, 26);
-            this.txtDown.TabIndex = 17;
-            this.txtDown.Text = "10";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(62, 157);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(41, 20);
-            this.label2.TabIndex = 16;
-            this.label2.Text = "Left:";
-            // 
-            // txtLeft
-            // 
-            this.txtLeft.AcceptsReturn = true;
-            this.txtLeft.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtLeft.Location = new System.Drawing.Point(131, 151);
-            this.txtLeft.Name = "txtLeft";
-            this.txtLeft.Size = new System.Drawing.Size(100, 26);
-            this.txtLeft.TabIndex = 15;
-            this.txtLeft.Text = "30";
-            // 
-            // btnGaussCalc
-            // 
-            this.btnGaussCalc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGaussCalc.Location = new System.Drawing.Point(73, 243);
-            this.btnGaussCalc.Name = "btnGaussCalc";
-            this.btnGaussCalc.Size = new System.Drawing.Size(138, 30);
-            this.btnGaussCalc.TabIndex = 19;
-            this.btnGaussCalc.Text = "Calculate";
-            this.btnGaussCalc.UseVisualStyleBackColor = true;
-            this.btnGaussCalc.Click += new System.EventHandler(this.btnGaussCalc_Click);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(52, 293);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(185, 20);
-            this.label3.TabIndex = 13;
-            this.label3.Text = "Your robot has ended at:";
-            // 
-            // txtResults
-            // 
-            this.txtResults.AcceptsReturn = true;
-            this.txtResults.Enabled = false;
-            this.txtResults.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtResults.Location = new System.Drawing.Point(56, 332);
-            this.txtResults.Name = "txtResults";
-            this.txtResults.Size = new System.Drawing.Size(175, 26);
-            this.txtResults.TabIndex = 20;
-            this.txtResults.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
             // picTrackRobot1
             // 
             this.picTrackRobot1.Image = global::Practicing.Properties.Resources.trackRobot1;
@@ -200,11 +201,23 @@
             this.picTrackRobot1.TabIndex = 5;
             this.picTrackRobot1.TabStop = false;
             // 
+            // btnCode
+            // 
+            this.btnCode.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCode.Location = new System.Drawing.Point(802, 475);
+            this.btnCode.Name = "btnCode";
+            this.btnCode.Size = new System.Drawing.Size(138, 30);
+            this.btnCode.TabIndex = 21;
+            this.btnCode.Text = "Look at Code";
+            this.btnCode.UseVisualStyleBackColor = true;
+            this.btnCode.Click += new System.EventHandler(this.btnCode_Click);
+            // 
             // frmTrackRobot1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1036, 728);
+            this.Controls.Add(this.btnCode);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.picTrackRobot1);
             this.Name = "frmTrackRobot1";
@@ -233,5 +246,6 @@
         private System.Windows.Forms.Button btnGaussCalc;
         private System.Windows.Forms.TextBox txtResults;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button btnCode;
     }
 }

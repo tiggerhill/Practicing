@@ -1,6 +1,6 @@
 ﻿namespace Practicing
 {
-    partial class frmCodeRobot1
+    partial class frmCodeCups
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCodeRobot1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCodeCups));
             this.tboxCodeFrame = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
@@ -39,18 +39,19 @@
             this.tboxCodeFrame.Location = new System.Drawing.Point(0, 0);
             this.tboxCodeFrame.Name = "tboxCodeFrame";
             this.tboxCodeFrame.ReadOnly = true;
-            this.tboxCodeFrame.Size = new System.Drawing.Size(986, 588);
-            this.tboxCodeFrame.TabIndex = 2;
+            this.tboxCodeFrame.Size = new System.Drawing.Size(800, 450);
+            this.tboxCodeFrame.TabIndex = 1;
             this.tboxCodeFrame.Text = resources.GetString("tboxCodeFrame.Text");
             // 
-            // frmCodeRobot1
+            // frmCodeCups
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(986, 588);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.tboxCodeFrame);
-            this.Name = "frmCodeRobot1";
-            this.Text = "frmCodeRobot1";
+            this.Name = "frmCodeCups";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "frmCodeCups";
             this.ResumeLayout(false);
 
         }

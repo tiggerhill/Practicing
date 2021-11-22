@@ -30,11 +30,12 @@
         {
             this.picBoxFrame = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtResult = new System.Windows.Forms.TextBox();
             this.btnPerfectAmicable = new System.Windows.Forms.Button();
             this.txtNumber = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtResult = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.btnCode = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxFrame)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -60,6 +61,26 @@
             this.groupBox1.Size = new System.Drawing.Size(312, 219);
             this.groupBox1.TabIndex = 14;
             this.groupBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(135, 128);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(59, 20);
+            this.label1.TabIndex = 11;
+            this.label1.Text = "Result:";
+            // 
+            // txtResult
+            // 
+            this.txtResult.AcceptsReturn = true;
+            this.txtResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtResult.Location = new System.Drawing.Point(36, 162);
+            this.txtResult.Name = "txtResult";
+            this.txtResult.Size = new System.Drawing.Size(258, 26);
+            this.txtResult.TabIndex = 10;
+            this.txtResult.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // btnPerfectAmicable
             // 
@@ -91,32 +112,24 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Input Number:";
             // 
-            // txtResult
+            // btnCode
             // 
-            this.txtResult.AcceptsReturn = true;
-            this.txtResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtResult.Location = new System.Drawing.Point(36, 162);
-            this.txtResult.Name = "txtResult";
-            this.txtResult.Size = new System.Drawing.Size(258, 26);
-            this.txtResult.TabIndex = 10;
-            this.txtResult.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(135, 128);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(59, 20);
-            this.label1.TabIndex = 11;
-            this.label1.Text = "Result:";
+            this.btnCode.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCode.Location = new System.Drawing.Point(378, 851);
+            this.btnCode.Name = "btnCode";
+            this.btnCode.Size = new System.Drawing.Size(121, 30);
+            this.btnCode.TabIndex = 12;
+            this.btnCode.Text = "Look at Code";
+            this.btnCode.UseVisualStyleBackColor = true;
+            this.btnCode.Click += new System.EventHandler(this.btnCode_Click);
             // 
             // frmPerfectOrAmicable
             // 
             this.AcceptButton = this.btnPerfectAmicable;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 870);
+            this.ClientSize = new System.Drawing.Size(800, 942);
+            this.Controls.Add(this.btnCode);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.picBoxFrame);
             this.Name = "frmPerfectOrAmicable";
@@ -138,5 +151,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtResult;
+        private System.Windows.Forms.Button btnCode;
     }
 }

@@ -50,6 +50,7 @@
             this.ClientSize = new System.Drawing.Size(769, 399);
             this.Controls.Add(this.tboxCodeFrame);
             this.Name = "frmCodeCommon";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmCodeCommon";
             this.ResumeLayout(false);
 

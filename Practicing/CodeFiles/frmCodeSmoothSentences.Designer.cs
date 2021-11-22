@@ -1,6 +1,6 @@
 ﻿namespace Practicing
 {
-    partial class frmCodeCups
+    partial class frmCodeSmoothSentences
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCodeCups));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCodeSmoothSentences));
             this.tboxCodeFrame = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
@@ -39,18 +39,19 @@
             this.tboxCodeFrame.Location = new System.Drawing.Point(0, 0);
             this.tboxCodeFrame.Name = "tboxCodeFrame";
             this.tboxCodeFrame.ReadOnly = true;
-            this.tboxCodeFrame.Size = new System.Drawing.Size(800, 450);
+            this.tboxCodeFrame.Size = new System.Drawing.Size(748, 415);
             this.tboxCodeFrame.TabIndex = 1;
             this.tboxCodeFrame.Text = resources.GetString("tboxCodeFrame.Text");
             // 
-            // frmCodeCups
+            // frmCodeSmoothSentences
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(748, 415);
             this.Controls.Add(this.tboxCodeFrame);
-            this.Name = "frmCodeCups";
-            this.Text = "frmCodeCups";
+            this.Name = "frmCodeSmoothSentences";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "frmCodeSmoothSentences";
             this.ResumeLayout(false);
 
         }

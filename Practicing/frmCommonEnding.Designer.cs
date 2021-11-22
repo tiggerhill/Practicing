@@ -172,6 +172,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.picBoxFrame);
             this.Name = "frmCommonEnding";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmCommonEnding";
             ((System.ComponentModel.ISupportInitialize)(this.picBoxFrame)).EndInit();
             this.groupBox1.ResumeLayout(false);

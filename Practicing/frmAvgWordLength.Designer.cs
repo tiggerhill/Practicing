@@ -32,10 +32,11 @@
             this.picBrokenBridge = new System.Windows.Forms.PictureBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtResult = new System.Windows.Forms.TextBox();
             this.btnCalculateAverage = new System.Windows.Forms.Button();
             this.txtSentence = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtResult = new System.Windows.Forms.TextBox();
+            this.btnCode = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picBrokenBridge)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -68,6 +69,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.btnCode);
             this.groupBox1.Controls.Add(this.txtResult);
             this.groupBox1.Controls.Add(this.btnCalculateAverage);
             this.groupBox1.Controls.Add(this.txtSentence);
@@ -78,12 +80,22 @@
             this.groupBox1.TabIndex = 16;
             this.groupBox1.TabStop = false;
             // 
+            // txtResult
+            // 
+            this.txtResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtResult.Location = new System.Drawing.Point(200, 100);
+            this.txtResult.Multiline = true;
+            this.txtResult.Name = "txtResult";
+            this.txtResult.Size = new System.Drawing.Size(334, 55);
+            this.txtResult.TabIndex = 19;
+            this.txtResult.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // btnCalculateAverage
             // 
             this.btnCalculateAverage.BackColor = System.Drawing.SystemColors.MenuBar;
             this.btnCalculateAverage.FlatAppearance.BorderSize = 3;
             this.btnCalculateAverage.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalculateAverage.Location = new System.Drawing.Point(200, 88);
+            this.btnCalculateAverage.Location = new System.Drawing.Point(200, 64);
             this.btnCalculateAverage.Name = "btnCalculateAverage";
             this.btnCalculateAverage.Size = new System.Drawing.Size(334, 30);
             this.btnCalculateAverage.TabIndex = 18;
@@ -112,15 +124,18 @@
             this.label2.Text = "Input Sentence:";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // txtResult
+            // btnCode
             // 
-            this.txtResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtResult.Location = new System.Drawing.Point(200, 144);
-            this.txtResult.Multiline = true;
-            this.txtResult.Name = "txtResult";
-            this.txtResult.Size = new System.Drawing.Size(334, 55);
-            this.txtResult.TabIndex = 19;
-            this.txtResult.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btnCode.BackColor = System.Drawing.SystemColors.MenuBar;
+            this.btnCode.FlatAppearance.BorderSize = 3;
+            this.btnCode.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCode.Location = new System.Drawing.Point(293, 181);
+            this.btnCode.Name = "btnCode";
+            this.btnCode.Size = new System.Drawing.Size(145, 30);
+            this.btnCode.TabIndex = 20;
+            this.btnCode.Text = "Look at Code";
+            this.btnCode.UseVisualStyleBackColor = false;
+            this.btnCode.Click += new System.EventHandler(this.btnCode_Click);
             // 
             // frmAvgWordLength
             // 
@@ -131,6 +146,7 @@
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.picBrokenBridge);
             this.Name = "frmAvgWordLength";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmAvgWordLength";
             ((System.ComponentModel.ISupportInitialize)(this.picBrokenBridge)).EndInit();
             this.groupBox1.ResumeLayout(false);
@@ -149,5 +165,6 @@
         private System.Windows.Forms.Button btnCalculateAverage;
         private System.Windows.Forms.TextBox txtSentence;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnCode;
     }
 }

@@ -63,5 +63,11 @@ namespace Practicing
             }
             return result;
         }
+
+        private void btnCode_Click(object sender, EventArgs e)
+        {
+            frmCodeRobot1 frm = new frmCodeRobot1();
+            frm.ShowDialog();
+        }
     }
 }

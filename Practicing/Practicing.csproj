@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CodeFiles\frmCodePerfectAmicable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CodeFiles\frmCodePerfectAmicable.Designer.cs">
+      <DependentUpon>frmCodePerfectAmicable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CodeFiles\frmCodeWordLength.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CodeFiles\frmCodeWordLength.Designer.cs">
+      <DependentUpon>frmCodeWordLength.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmAvgWordLength.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,40 +70,40 @@
     <Compile Include="frmBrokenBridge.Designer.cs">
       <DependentUpon>frmBrokenBridge.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmCodeCommon.cs">
+    <Compile Include="CodeFiles\frmCodeCommon.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmCodeCommon.Designer.cs">
+    <Compile Include="CodeFiles\frmCodeCommon.Designer.cs">
       <DependentUpon>frmCodeCommon.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmCodeCups.cs">
+    <Compile Include="CodeFiles\frmCodeCups.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmCodeCups.Designer.cs">
+    <Compile Include="CodeFiles\frmCodeCups.Designer.cs">
       <DependentUpon>frmCodeCups.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmCodeFrame.cs">
+    <Compile Include="CodeFiles\frmCodeFrame.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmCodeFrame.Designer.cs">
+    <Compile Include="CodeFiles\frmCodeFrame.Designer.cs">
       <DependentUpon>frmCodeFrame.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmCodeGauss.cs">
+    <Compile Include="CodeFiles\frmCodeGauss.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmCodeGauss.Designer.cs">
+    <Compile Include="CodeFiles\frmCodeGauss.Designer.cs">
       <DependentUpon>frmCodeGauss.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmCodeRobot1.cs">
+    <Compile Include="CodeFiles\frmCodeRobot1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmCodeRobot1.Designer.cs">
+    <Compile Include="CodeFiles\frmCodeRobot1.Designer.cs">
       <DependentUpon>frmCodeRobot1.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmCodeSmoothSentences.cs">
+    <Compile Include="CodeFiles\frmCodeSmoothSentences.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmCodeSmoothSentences.Designer.cs">
+    <Compile Include="CodeFiles\frmCodeSmoothSentences.Designer.cs">
       <DependentUpon>frmCodeSmoothSentences.cs</DependentUpon>
     </Compile>
     <Compile Include="frmCommonEnding.cs">
@@ -144,28 +156,34 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CodeFiles\frmCodePerfectAmicable.resx">
+      <DependentUpon>frmCodePerfectAmicable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CodeFiles\frmCodeWordLength.resx">
+      <DependentUpon>frmCodeWordLength.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmAvgWordLength.resx">
       <DependentUpon>frmAvgWordLength.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmBrokenBridge.resx">
       <DependentUpon>frmBrokenBridge.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmCodeCommon.resx">
+    <EmbeddedResource Include="CodeFiles\frmCodeCommon.resx">
       <DependentUpon>frmCodeCommon.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmCodeCups.resx">
+    <EmbeddedResource Include="CodeFiles\frmCodeCups.resx">
       <DependentUpon>frmCodeCups.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmCodeFrame.resx">
+    <EmbeddedResource Include="CodeFiles\frmCodeFrame.resx">
       <DependentUpon>frmCodeFrame.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmCodeGauss.resx">
+    <EmbeddedResource Include="CodeFiles\frmCodeGauss.resx">
       <DependentUpon>frmCodeGauss.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmCodeRobot1.resx">
+    <EmbeddedResource Include="CodeFiles\frmCodeRobot1.resx">
       <DependentUpon>frmCodeRobot1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmCodeSmoothSentences.resx">
+    <EmbeddedResource Include="CodeFiles\frmCodeSmoothSentences.resx">
       <DependentUpon>frmCodeSmoothSentences.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmCommonEnding.resx">

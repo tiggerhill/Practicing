@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Practicing.CodeFiles;
 using System.Windows.Forms;
 
 namespace Practicing
@@ -52,6 +46,12 @@ namespace Practicing
 
             double average = Math.Round((double)sum / words.Length, 2);
             return average;
+        }
+
+        private void btnCode_Click(object sender, EventArgs e)
+        {
+            frmCodeWordLength frm = new frmCodeWordLength();
+            frm.ShowDialog();
         }
     }
 }
