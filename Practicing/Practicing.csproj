@@ -58,11 +58,11 @@
     <Compile Include="frmBrokenBridge.Designer.cs">
       <DependentUpon>frmBrokenBridge.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmCodeCommong.cs">
+    <Compile Include="frmCodeCommon.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmCodeCommong.Designer.cs">
-      <DependentUpon>frmCodeCommong.cs</DependentUpon>
+    <Compile Include="frmCodeCommon.Designer.cs">
+      <DependentUpon>frmCodeCommon.cs</DependentUpon>
     </Compile>
     <Compile Include="frmCodeCups.cs">
       <SubType>Form</SubType>
@@ -81,6 +81,12 @@
     </Compile>
     <Compile Include="frmCodeGauss.Designer.cs">
       <DependentUpon>frmCodeGauss.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCodeRobot1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCodeRobot1.Designer.cs">
+      <DependentUpon>frmCodeRobot1.cs</DependentUpon>
     </Compile>
     <Compile Include="frmCodeSmoothSentences.cs">
       <SubType>Form</SubType>
@@ -124,6 +130,12 @@
     <Compile Include="frmSmoothSentences.Designer.cs">
       <DependentUpon>frmSmoothSentences.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmTrackRobot1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTrackRobot1.Designer.cs">
+      <DependentUpon>frmTrackRobot1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -138,8 +150,8 @@
     <EmbeddedResource Include="frmBrokenBridge.resx">
       <DependentUpon>frmBrokenBridge.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmCodeCommong.resx">
-      <DependentUpon>frmCodeCommong.cs</DependentUpon>
+    <EmbeddedResource Include="frmCodeCommon.resx">
+      <DependentUpon>frmCodeCommon.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmCodeCups.resx">
       <DependentUpon>frmCodeCups.cs</DependentUpon>
@@ -149,6 +161,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmCodeGauss.resx">
       <DependentUpon>frmCodeGauss.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCodeRobot1.resx">
+      <DependentUpon>frmCodeRobot1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmCodeSmoothSentences.resx">
       <DependentUpon>frmCodeSmoothSentences.cs</DependentUpon>
@@ -170,6 +185,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmSmoothSentences.resx">
       <DependentUpon>frmSmoothSentences.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTrackRobot1.resx">
+      <DependentUpon>frmTrackRobot1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
@@ -221,6 +239,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Images\avgWordLength.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\trackRobot1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

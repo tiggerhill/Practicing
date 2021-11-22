@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.lnkCreateFrame = new System.Windows.Forms.LinkLabel();
@@ -54,6 +55,9 @@
             this.groupBox8 = new System.Windows.Forms.GroupBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.lnkAvgWordLength = new System.Windows.Forms.LinkLabel();
+            this.groupBox9 = new System.Windows.Forms.GroupBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.lnkTrackRobot1 = new System.Windows.Forms.LinkLabel();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -62,17 +66,20 @@
             this.groupBox6.SuspendLayout();
             this.groupBox7.SuspendLayout();
             this.groupBox8.SuspendLayout();
+            this.groupBox9.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(95, 38);
+            this.label1.Location = new System.Drawing.Point(229, 62);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(568, 24);
+            this.label1.Size = new System.Drawing.Size(599, 72);
             this.label1.TabIndex = 0;
-            this.label1.Text = "I\'m up to the C# programming exercises rated \"Hard\" at edabit.com";
+            this.label1.Text = "I\'m up to the C# programming exercises rated \"Hard\" at edabit.com.\r\nThe original " +
+    "solutions were all written as console apps, so I\'ve selected\r\na few to run as a " +
+    "Windows forms app.";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label3
@@ -102,7 +109,7 @@
             // 
             this.groupBox1.Controls.Add(this.lnkCreateFrame);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Location = new System.Drawing.Point(36, 88);
+            this.groupBox1.Location = new System.Drawing.Point(36, 146);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(488, 100);
             this.groupBox1.TabIndex = 5;
@@ -112,7 +119,7 @@
             // 
             this.groupBox2.Controls.Add(this.lnkGauss);
             this.groupBox2.Controls.Add(this.label2);
-            this.groupBox2.Location = new System.Drawing.Point(36, 195);
+            this.groupBox2.Location = new System.Drawing.Point(36, 253);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(488, 100);
             this.groupBox2.TabIndex = 6;
@@ -145,7 +152,7 @@
             // 
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel1.Location = new System.Drawing.Point(699, 37);
+            this.linkLabel1.Location = new System.Drawing.Point(448, 19);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(152, 25);
             this.linkLabel1.TabIndex = 7;
@@ -157,7 +164,7 @@
             // 
             this.groupBox3.Controls.Add(this.lnkCupSwapping);
             this.groupBox3.Controls.Add(this.label4);
-            this.groupBox3.Location = new System.Drawing.Point(36, 301);
+            this.groupBox3.Location = new System.Drawing.Point(36, 359);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(488, 100);
             this.groupBox3.TabIndex = 7;
@@ -190,7 +197,7 @@
             // 
             this.groupBox4.Controls.Add(this.lnkEnding);
             this.groupBox4.Controls.Add(this.label5);
-            this.groupBox4.Location = new System.Drawing.Point(36, 407);
+            this.groupBox4.Location = new System.Drawing.Point(36, 465);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(488, 100);
             this.groupBox4.TabIndex = 8;
@@ -222,7 +229,7 @@
             // 
             this.groupBox5.Controls.Add(this.lnkSmooth);
             this.groupBox5.Controls.Add(this.label6);
-            this.groupBox5.Location = new System.Drawing.Point(36, 513);
+            this.groupBox5.Location = new System.Drawing.Point(36, 571);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(488, 100);
             this.groupBox5.TabIndex = 9;
@@ -255,7 +262,7 @@
             // 
             this.groupBox6.Controls.Add(this.textBox2);
             this.groupBox6.Controls.Add(this.lnkPerfect);
-            this.groupBox6.Location = new System.Drawing.Point(530, 88);
+            this.groupBox6.Location = new System.Drawing.Point(530, 146);
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.Size = new System.Drawing.Size(488, 117);
             this.groupBox6.TabIndex = 10;
@@ -292,7 +299,7 @@
             // 
             this.groupBox7.Controls.Add(this.textBox1);
             this.groupBox7.Controls.Add(this.lnkBridge);
-            this.groupBox7.Location = new System.Drawing.Point(530, 211);
+            this.groupBox7.Location = new System.Drawing.Point(530, 269);
             this.groupBox7.Name = "groupBox7";
             this.groupBox7.Size = new System.Drawing.Size(488, 100);
             this.groupBox7.TabIndex = 6;
@@ -328,7 +335,7 @@
             // 
             this.groupBox8.Controls.Add(this.textBox3);
             this.groupBox8.Controls.Add(this.lnkAvgWordLength);
-            this.groupBox8.Location = new System.Drawing.Point(530, 317);
+            this.groupBox8.Location = new System.Drawing.Point(530, 375);
             this.groupBox8.Name = "groupBox8";
             this.groupBox8.Size = new System.Drawing.Size(488, 113);
             this.groupBox8.TabIndex = 11;
@@ -361,11 +368,48 @@
             this.lnkAvgWordLength.Text = "Average Word Length";
             this.lnkAvgWordLength.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkAvgWordLength_LinkClicked);
             // 
+            // groupBox9
+            // 
+            this.groupBox9.Controls.Add(this.textBox4);
+            this.groupBox9.Controls.Add(this.lnkTrackRobot1);
+            this.groupBox9.Location = new System.Drawing.Point(530, 498);
+            this.groupBox9.Name = "groupBox9";
+            this.groupBox9.Size = new System.Drawing.Size(488, 137);
+            this.groupBox9.TabIndex = 12;
+            this.groupBox9.TabStop = false;
+            // 
+            // textBox4
+            // 
+            this.textBox4.BackColor = System.Drawing.SystemColors.Menu;
+            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox4.Enabled = false;
+            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox4.Location = new System.Drawing.Point(10, 43);
+            this.textBox4.Multiline = true;
+            this.textBox4.Name = "textBox4";
+            this.textBox4.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.textBox4.Size = new System.Drawing.Size(472, 91);
+            this.textBox4.TabIndex = 5;
+            this.textBox4.Text = resources.GetString("textBox4.Text");
+            // 
+            // lnkTrackRobot1
+            // 
+            this.lnkTrackRobot1.AutoSize = true;
+            this.lnkTrackRobot1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lnkTrackRobot1.Location = new System.Drawing.Point(6, 16);
+            this.lnkTrackRobot1.Name = "lnkTrackRobot1";
+            this.lnkTrackRobot1.Size = new System.Drawing.Size(143, 24);
+            this.lnkTrackRobot1.TabIndex = 4;
+            this.lnkTrackRobot1.TabStop = true;
+            this.lnkTrackRobot1.Text = "Track the Robot";
+            this.lnkTrackRobot1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkTrackRobot1_LinkClicked);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1048, 646);
+            this.ClientSize = new System.Drawing.Size(1048, 745);
+            this.Controls.Add(this.groupBox9);
             this.Controls.Add(this.groupBox8);
             this.Controls.Add(this.groupBox7);
             this.Controls.Add(this.groupBox6);
@@ -395,6 +439,8 @@
             this.groupBox7.PerformLayout();
             this.groupBox8.ResumeLayout(false);
             this.groupBox8.PerformLayout();
+            this.groupBox9.ResumeLayout(false);
+            this.groupBox9.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -428,6 +474,9 @@
         private System.Windows.Forms.GroupBox groupBox8;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.LinkLabel lnkAvgWordLength;
+        private System.Windows.Forms.GroupBox groupBox9;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.LinkLabel lnkTrackRobot1;
     }
 }
 

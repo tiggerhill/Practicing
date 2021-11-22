@@ -69,5 +69,11 @@ namespace Practicing
             frmAvgWordLength frm = new frmAvgWordLength();
             frm.ShowDialog();
         }
+
+        private void lnkTrackRobot1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            frmTrackRobot1 frm = new frmTrackRobot1();
+            frm.ShowDialog();
+        }
     }
 }
