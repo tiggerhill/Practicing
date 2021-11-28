@@ -11,6 +11,8 @@ namespace Practicing
             InitializeComponent();
         }
 
+        // Calculate average word length in a string
+
         private void btnCalculateAverage_Click(object sender, EventArgs e)
         {
             String str = txtSentence.Text;

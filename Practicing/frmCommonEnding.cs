@@ -17,6 +17,9 @@ namespace Practicing
             InitializeComponent();
         }
 
+        // Write a function that returns the longest common ending between two strings.
+        // Return an empty string if there exists no common ending.
+
         private void btnCodeGauss_Click(object sender, EventArgs e)
         {
             frmCodeCommon frm = new frmCodeCommon();
